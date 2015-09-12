@@ -22,6 +22,7 @@ stepsByDay = aggregate(activityDataWithoutNAs$steps,
                        by=list(date=activityDataWithoutNAs$date), FUN=sum)
 hist(stepsByDay$x,main = "Histogram of total number os steps taken each day", xlab="totalOfStepsByDay")
 ```
+
 Calculating the mean value:
 ```{r}
 mean(stepsByDay$x)

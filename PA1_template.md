@@ -26,6 +26,7 @@ hist(stepsByDay$x,main = "Histogram of total number os steps taken each day", xl
 ```
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
+
 Calculating the mean value:
 
 ```r
@@ -121,7 +122,7 @@ print(xtable(explainData[explainData$x > 0,]), type="html")
 ```
 
 <!-- html table generated in R 3.2.2 by xtable 1.7-4 package -->
-<!-- Sat Sep 12 15:45:20 2015 -->
+<!-- Sat Sep 12 15:49:05 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> date </th> <th> x </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> 2012-10-01 </td> <td align="right"> 288 </td> </tr>
